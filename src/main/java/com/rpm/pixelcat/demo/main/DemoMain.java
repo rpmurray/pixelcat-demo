@@ -1,20 +1,22 @@
-package com.rpm.pixelcatdemo.main;
+package com.rpm.pixelcat.demo.main;
 
 import com.google.common.collect.ImmutableMap;
-import com.rpm.pixelcat.common.Printer;
-import com.rpm.pixelcat.kernel.Kernel;
-import com.rpm.pixelcat.kernel.KernelInjection;
-import com.rpm.pixelcat.kernel.KernelInjectionEventEnum;
+import com.rpm.pixelcat.engine.common.Printer;
+import com.rpm.pixelcat.engine.common.PrinterFactory;
+import com.rpm.pixelcat.engine.kernel.Kernel;
+import com.rpm.pixelcat.engine.kernel.KernelFactory;
+import com.rpm.pixelcat.engine.kernel.KernelInjection;
+import com.rpm.pixelcat.engine.kernel.KernelInjectionEventEnum;
 import java.util.Map;
 
 public class DemoMain {
     // utilities
-    private static final Printer PRINTER = new Printer(DemoMain.class);
+    private static final Printer PRINTER = PrinterFactory.getInstance().createPrinter(DemoMain.class);
 
     public static void main(String arg[]) {
         try {
             // instantiate kernel
-            Kernel kernel = new Kernel();
+            Kernel kernel = KernelFactory.getInstance().createKernel();
 
             // initialize
             kernel.init();
