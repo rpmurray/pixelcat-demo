@@ -1,8 +1,8 @@
-package com.rpm.pixelcat.demo.gameobject.builder;
+package info.masterfrog.pixelcat.demo.gameobject.builder;
 
-import com.rpm.pixelcat.engine.exception.TransientGameException;
-import com.rpm.pixelcat.engine.logic.gameobject.GameObject;
-import com.rpm.pixelcat.engine.logic.gameobject.GameObjectManager;
+import info.masterfrog.pixelcat.engine.exception.TransientGameException;
+import info.masterfrog.pixelcat.engine.logic.gameobject.GameObject;
+import info.masterfrog.pixelcat.engine.logic.gameobject.GameObjectManager;
 
 import java.awt.*;
 

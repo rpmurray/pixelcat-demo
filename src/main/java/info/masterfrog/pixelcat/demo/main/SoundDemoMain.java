@@ -1,6 +1,6 @@
-package com.rpm.pixelcat.demo.main;
+package info.masterfrog.pixelcat.demo.main;
 
-import com.rpm.pixelcat.engine.sound.SoundPlayerImpl;
+import info.masterfrog.pixelcat.engine.sound.SoundPlayerImpl;
 
 public class SoundDemoMain {
     public static void main(String[] args) {

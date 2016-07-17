@@ -1,7 +1,7 @@
-package com.rpm.pixelcat.demo.level;
+package info.masterfrog.pixelcat.demo.level;
 
 import com.google.common.collect.ImmutableMap;
-import com.rpm.pixelcat.demo.enumeration.LevelHandle;
+import info.masterfrog.pixelcat.demo.enumeration.LevelHandle;
 
 import java.util.Map;
 
