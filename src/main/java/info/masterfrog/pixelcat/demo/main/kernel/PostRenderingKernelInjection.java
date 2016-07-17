@@ -1,11 +1,11 @@
-package com.rpm.pixelcat.demo.main.kernel;
+package info.masterfrog.pixelcat.demo.main.kernel;
 
-import com.rpm.pixelcat.engine.common.memory.MemoryMonitorFactory;
-import com.rpm.pixelcat.engine.common.printer.Printer;
-import com.rpm.pixelcat.engine.common.printer.PrinterFactory;
-import com.rpm.pixelcat.engine.exception.TransientGameException;
-import com.rpm.pixelcat.engine.kernel.KernelInjection;
-import com.rpm.pixelcat.engine.kernel.KernelState;
+import info.masterfrog.pixelcat.engine.common.memory.MemoryMonitorFactory;
+import info.masterfrog.pixelcat.engine.common.printer.Printer;
+import info.masterfrog.pixelcat.engine.common.printer.PrinterFactory;
+import info.masterfrog.pixelcat.engine.exception.TransientGameException;
+import info.masterfrog.pixelcat.engine.kernel.KernelInjection;
+import info.masterfrog.pixelcat.engine.kernel.KernelState;
 
 public class PostRenderingKernelInjection implements KernelInjection {
     private static final Printer PRINTER = PrinterFactory.getInstance().createPrinter(PostRenderingKernelInjection.class);

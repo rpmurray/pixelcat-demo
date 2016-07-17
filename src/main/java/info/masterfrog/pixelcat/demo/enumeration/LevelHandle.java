@@ -1,4 +1,4 @@
-package com.rpm.pixelcat.demo.enumeration;
+package info.masterfrog.pixelcat.demo.enumeration;
 
 public enum LevelHandle {
     START_SCREEN,

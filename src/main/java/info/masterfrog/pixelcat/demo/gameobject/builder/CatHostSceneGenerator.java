@@ -1,14 +1,16 @@
-package com.rpm.pixelcat.demo.gameobject.builder;
+package info.masterfrog.pixelcat.demo.gameobject.builder;
 
 import com.google.common.collect.ImmutableList;
-import com.rpm.pixelcat.engine.common.printer.Printer;
-import com.rpm.pixelcat.engine.common.printer.PrinterFactory;
-import com.rpm.pixelcat.engine.exception.TransientGameException;
-import com.rpm.pixelcat.engine.logic.gameobject.*;
-import com.rpm.pixelcat.engine.logic.gameobject.feature.*;
-import com.rpm.pixelcat.engine.logic.resource.Resource;
-import com.rpm.pixelcat.engine.logic.resource.ResourceFactory;
-import com.rpm.pixelcat.engine.logic.resource.SpriteSheet;
+import info.masterfrog.pixelcat.engine.common.printer.Printer;
+import info.masterfrog.pixelcat.engine.common.printer.PrinterFactory;
+import info.masterfrog.pixelcat.engine.exception.TransientGameException;
+import info.masterfrog.pixelcat.engine.logic.gameobject.GameObject;
+import info.masterfrog.pixelcat.engine.logic.gameobject.GameObjectManager;
+import info.masterfrog.pixelcat.engine.logic.gameobject.feature.Renderable;
+import info.masterfrog.pixelcat.engine.logic.gameobject.feature.ResourceLibrary;
+import info.masterfrog.pixelcat.engine.logic.resource.Resource;
+import info.masterfrog.pixelcat.engine.logic.resource.ResourceFactory;
+import info.masterfrog.pixelcat.engine.logic.resource.SpriteSheet;
 
 import java.awt.*;
 import java.util.List;

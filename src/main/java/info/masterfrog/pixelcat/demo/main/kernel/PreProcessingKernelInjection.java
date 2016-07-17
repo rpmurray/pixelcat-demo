@@ -1,19 +1,19 @@
-package com.rpm.pixelcat.demo.main.kernel;
+package info.masterfrog.pixelcat.demo.main.kernel;
 
-import com.rpm.pixelcat.engine.common.printer.Printer;
-import com.rpm.pixelcat.engine.common.printer.PrinterFactory;
-import com.rpm.pixelcat.engine.exception.TransientGameException;
-import com.rpm.pixelcat.engine.hid.HIDEventEnum;
-import com.rpm.pixelcat.engine.kernel.KernelActionEnum;
-import com.rpm.pixelcat.engine.kernel.KernelInjection;
-import com.rpm.pixelcat.engine.kernel.KernelState;
-import com.rpm.pixelcat.engine.kernel.KernelStatePropertyEnum;
-import com.rpm.pixelcat.engine.logic.gameobject.feature.Renderable;
-import com.rpm.pixelcat.demo.gameobject.GameObjectsHandler;
-import com.rpm.pixelcat.demo.level.LevelHandler;
-import com.rpm.pixelcat.demo.enumeration.GameObjectHandle;
-import com.rpm.pixelcat.demo.enumeration.GameObjectManagerHandle;
-import com.rpm.pixelcat.demo.enumeration.LevelHandle;
+import info.masterfrog.pixelcat.demo.enumeration.GameObjectHandle;
+import info.masterfrog.pixelcat.demo.enumeration.LevelHandle;
+import info.masterfrog.pixelcat.demo.gameobject.GameObjectsHandler;
+import info.masterfrog.pixelcat.demo.level.LevelHandler;
+import info.masterfrog.pixelcat.engine.common.printer.Printer;
+import info.masterfrog.pixelcat.engine.common.printer.PrinterFactory;
+import info.masterfrog.pixelcat.engine.exception.TransientGameException;
+import info.masterfrog.pixelcat.engine.hid.HIDEventEnum;
+import info.masterfrog.pixelcat.engine.kernel.KernelActionEnum;
+import info.masterfrog.pixelcat.engine.kernel.KernelInjection;
+import info.masterfrog.pixelcat.engine.kernel.KernelState;
+import info.masterfrog.pixelcat.engine.kernel.KernelStatePropertyEnum;
+import info.masterfrog.pixelcat.engine.logic.gameobject.feature.Renderable;
+import info.masterfrog.pixelcat.demo.enumeration.GameObjectManagerHandle;
 
 import java.awt.*;
 

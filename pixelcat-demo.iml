@@ -10,16 +10,16 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="pixelcat-engine" />
-    <orderEntry type="library" name="Maven: com.github.vbmacher:java-cup-runtime:11b" level="project" />
-    <orderEntry type="library" name="Maven: com.google.guava:guava:14.0.1" level="project" />
-    <orderEntry type="library" name="Maven: junit:junit:4.8.2" level="project" />
-    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="SoundSystem" level="application" />
     <orderEntry type="library" name="LibraryJavaSound" level="application" />
     <orderEntry type="library" name="CodecJOgg" level="application" />
     <orderEntry type="library" name="CodecWav" level="application" />
     <orderEntry type="library" name="lwjgl" level="application" />
     <orderEntry type="library" name="LibraryLWJGLOpenAL" level="application" />
+    <orderEntry type="module" module-name="pixelcat-engine" />
+    <orderEntry type="library" name="Maven: com.github.vbmacher:java-cup-runtime:11b" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:14.0.1" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:4.8.2" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
   </component>
 </module>
