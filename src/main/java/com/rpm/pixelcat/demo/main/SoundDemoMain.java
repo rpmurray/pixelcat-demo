@@ -1,6 +1,7 @@
 package com.rpm.pixelcat.demo.main;
 
-import com.rpm.pixelcat.engine.sound.SoundPlayerImpl;
+import com.rpm.pixelcat.engine.sound.SoundEngine;
+import com.rpm.pixelcat.engine.sound.AudioPlayer;
 
 public class SoundDemoMain {
     public static void main(String[] args) {
@@ -8,15 +9,15 @@ public class SoundDemoMain {
         try {
             new Thread(() -> {
                 try {
-                    SoundPlayerImpl.getInstance().init();
+                    SoundEngine.getInstance().init();
                 } catch (Exception e) {
                     System.out.println(e);
                     System.exit(1);
                 }
             });
-            SoundPlayerImpl.getInstance().init().playSound(fileName);
+            AudioPlayer.getInstance().SoundEngine.getInstance().init().playSound(fileName);
             Thread.sleep(3000);
-            SoundPlayerImpl.getInstance().init().playSound(fileName);
+            SoundEngine.getInstance().init().(fileName);
         } catch (Exception e) {
             System.out.println(e);
             System.exit(1);
